@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--primary-text-color);
 }
 
@@ -20,20 +20,26 @@ body {
     text-decoration: none;
 }
 
+
 .logo-link {
-font-family: 'Raleway', cursive;
+font-family: "Raleway", cursive;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-color: var(--title-text-color);
-}
+color: var( --primary-blue-color);
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
-.web {
-    color:var(--primary-blue-color);
 }
 
 .studio {
-    color:var(--primary-text-color);
+    color:var(--title-text-color);
+    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
 }
 
 .menu-link {
@@ -43,29 +49,49 @@ color: var(--title-text-color);
     color: var(--title-text-color);
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF
+}
+
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    font-style: normal;
+   
 
 }
-
+.hero{
+    background: #2E2F42;
+}
 .hero-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /*color: var(--primary-white-color);*/
+    color: var(--primary-white-color);
+   
 }
 .modal-btn {
     
     color:var(--primary-white-color);
     background:var(--primary-blue-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
 }
+
+.title-white {
+    color: #ffffff;
+
+}
+
 
 .service-text {
     font-weight: 500;
@@ -91,13 +117,23 @@ color: var(--title-text-color);
     text-transform: capitalize;
     color: var( --title-text-color);
 }
+
+.footer{
+    background-color:  #2e2f42;
+}
 .section-footer{
    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-   /* color: var(--primary-white-color);*/
+    color: var(--primary-white-color);
+
     }
+.studio-footer{
+   color: #f4f4fd; 
+}
+
+
 .btn-portfolio:hover,
 .btn-portfolio:focus {
     background: #404BBF;
@@ -106,4 +142,13 @@ color: var(--title-text-color);
 
 .btn-portfolio {
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:  #4d5ae5 ;
+       
+   
 }
+
+
