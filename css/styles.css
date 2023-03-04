@@ -22,10 +22,10 @@ body {
 
 
 .logo-link {
-font-family: "Raleway", cursive;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 color: var( --primary-blue-color);
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -46,7 +46,13 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
+
+}
+
+.contact-adress {
+    font-style: normal;
 }
 
 .contact-link:hover,
@@ -76,7 +82,7 @@ text-transform: uppercase;
    
 }
 .modal-btn {
-    
+    font-family: "Roboto", sans-serif ;
     color:var(--primary-white-color);
     background:var(--primary-blue-color);
     cursor: pointer;
@@ -141,6 +147,7 @@ text-transform: uppercase;
 }
 
 .btn-portfolio {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
