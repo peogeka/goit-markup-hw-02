@@ -3,7 +3,9 @@
     --title-text-color: #2E2F42;
     --primary-white-color: #FFFFFF;;
     --primary-blue-color: #4D5AE5;
-  
+    --hover-focus-color:  #404BBF;
+    --background-color-black: #2E2F42;
+    --background-color-white: #F4F4FD;
 }
 
 
@@ -39,7 +41,7 @@ text-transform: uppercase;
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--hover-focus-color);
 }
 
 .menu-link {
@@ -57,7 +59,7 @@ text-transform: uppercase;
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #404BBF
+    color: var(--hover-focus-color);
 }
 
 .contact-link {
@@ -70,7 +72,7 @@ text-transform: uppercase;
 
 }
 .hero{
-    background: #2E2F42;
+    background: var(--background-color-black);
 }
 .hero-text {
     font-weight: 700;
@@ -92,9 +94,12 @@ text-transform: uppercase;
     letter-spacing: 0.04em;
 
 }
+.ourteam {
+    background: var(--background-color-white);
+}
 
 .title-white {
-    color: #ffffff;
+    color: var(--primary-white-color);
 
 }
 
@@ -125,7 +130,7 @@ text-transform: uppercase;
 }
 
 .footer{
-    background-color:  #2e2f42;
+    background-color:  var(--background-color-black);
 }
 .section-footer{
    
@@ -136,13 +141,13 @@ text-transform: uppercase;
 
     }
 .studio-footer{
-   color: #f4f4fd; 
+   color: var(--background-color-white); 
 }
 
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-    background: #404BBF;
+    background: var(--hover-focus-color);
     color: var(--primary-white-color);
 }
 
@@ -153,7 +158,7 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:  #4d5ae5 ;
+    color:  var(--primary-blue-color);
        
    
 }
